@@ -1,0 +1,470 @@
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "global";
+
+.header {
+  box-shadow: 0px 1px 4px rgba(102, 102, 102, 0.12);
+  padding: 21px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.energizer {
+  margin-bottom: 110px;
+  padding-top: 25px;
+
+  .container {
+    display: flex;
+  }
+
+  &__inner {
+    max-width: 755px;
+    width: 100%;
+
+  }
+
+  &__subtitle {
+    @extend %kaspersky-400;
+    font-size: 40px;
+    color: #1D1D1B;
+    margin-bottom: 29px;
+
+    span {
+      display: block;
+
+    }
+  }
+
+  &__text {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 54px;
+      height: 1px;
+      top: -7px;
+      background-color: #444444;
+    }
+
+    margin-bottom: 44px;
+
+    p:first-child {
+      margin-bottom: 28px;
+    }
+  }
+
+  &__link {
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #00A88E;
+  }
+
+  &__logo {
+    width: 623px;
+  }
+
+  &__img {
+    img {
+      object-fit: cover;
+      position: absolute;
+      top: 4px;
+      z-index: -1;
+    }
+  }
+}
+
+.cards {
+  &__inner {
+    display: flex;
+  }
+
+  padding-bottom: 221px;
+  z-index: 99;
+}
+
+.card {
+  width: 350px;
+  height: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8.48242px 25.4473px rgba(29, 29, 27, 0.24);
+  border-radius: 4.24121px;
+  position: relative;
+
+  &__stick {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 152px;
+    height: 48px;
+    background-color: #FFE810;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @extend %kaspersky-400;
+    top: -24px;
+    padding-right: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
+    z-index: 99;
+    left: -13px;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 7px solid transparent;
+      border-left: 11px solid #FBBA00;
+      border-bottom: 0px solid transparent;
+      left: 0px;
+      z-index: 0;
+      top: 48px;
+      transform: rotate(180deg);
+      z-index: -99;
+    }
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 0;
+      border-top: 24px solid transparent;
+      border-left: 26px solid #FFE810;
+      border-bottom: 24px solid transparent;
+      right: -26px;
+      z-index: 0;
+      top: 0px;
+      border: radius 6px;
+    }
+  }
+
+  &:nth-child(2) {
+    padding-top: 44px;
+    margin-top: -28px;
+    margin-left: 38px;
+  }
+
+  &:nth-child(3) {
+    margin-left: 30px;
+  }
+
+  &__top-box,
+  &__bottom {
+    padding: 23px 19px 48px;
+
+  }
+
+  &__top-box {
+    padding-bottom: 14px;
+  }
+
+  &__top {
+    display: flex;
+    align-items: flex-start;
+    color: #1D1D1B;
+    @extend %kaspersky-400;
+    margin-bottom: 30px;
+
+    &-content {
+      padding-top: 6px;
+      margin-left: 10px;
+      line-height: 1.1;
+    }
+  }
+
+  &__pesonal {
+    display: block;
+    font-size: 18px;
+    color: #00A88E;
+    line-height: 1.2;
+  }
+
+  &__title {
+    font-size: 18px;
+  }
+
+  &__subtitle {
+    font-size: 25px;
+  }
+
+  &__reviews {
+    font-size: 14px;
+    margin-left: 9px;
+    @extend %kaspersky-700;
+  }
+
+  &__list {
+    margin-left: 38px;
+  }
+
+  &__item {
+    position: relative;
+    font-size: 18px;
+    max-width: 275px;
+    width: 100%;
+    margin-bottom: 8px;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-image: url('../images/cards/check.svg');
+      background-repeat: no-repeat;
+      top: 10px;
+      left: -37px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &__user-info {
+    font-size: 16px;
+    color: #666666;
+
+  }
+
+  &__mark {
+    display: inline-block;
+    margin-left: 4px;
+  }
+
+  &__bottom {
+    background-color: #F2F2F2;
+  }
+
+  &__plan-title {
+    margin-bottom: 10px;
+  }
+
+  &__select {
+    font-size: 16px;
+    padding: 0 43px 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    max-width: 312px;
+    width: 100%;
+    height: 48px;
+    @extend %kaspersky-700;
+    border: 1.5px solid #CCCCCC;
+    border-bottom: 2px solid #23D1AE;
+    margin-bottom: 7px;
+    background-image: url('../images/cards/angle.svg');
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+
+    &-l {
+      span:nth-child(2) {
+        @extend %kaspersky-300;
+      }
+    }
+  }
+
+  &__bottom-center {
+    text-align: center;
+
+  }
+
+  &__tagline {
+    display: block;
+    font-size: 15px;
+    color: #6D6E71;
+    margin-bottom: 16px;
+  }
+
+  &__prices {
+    margin-bottom: 14px;
+    @extend %kaspersky-700;
+  }
+
+  &__sales {
+
+    span:first-child {
+      font-size: 24px;
+      color: #FF3748;
+      text-transform: uppercase;
+    }
+
+    span:nth-child(2) {
+      display: block;
+      font-size: 20px;
+      color: #999999;
+      text-decoration-line: line-through;
+    }
+  }
+
+  &__prices-value {
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: 1;
+
+    span {
+      letter-spacing: 0;
+      font-size: 32px;
+    }
+
+    sup {
+      letter-spacing: 0;
+
+      font-size: 32px;
+    }
+  }
+
+  &__button {
+    @extend %kaspersky-700;
+    max-width: 312px;
+    font-size: 24px;
+    width: 100%;
+    color: #fff;
+    height: 76px;
+    background-color: #FF3748;
+    box-shadow: 0px 8.48242px 33.9297px rgba(255, 55, 72, 0.48);
+    border: none;
+    margin-bottom: 17px;
+  }
+
+  &__label {
+    span {
+      font-size: 16px;
+    }
+
+    .card__mark {
+      margin-left: 0px;
+    }
+  }
+}
+
+.jq-ry-container {
+  display: inline-block;
+  padding: 0 0 0 2px;
+}
+
+.advantages {
+  padding-bottom: 267px;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  background-image:url('../images/advantages/bg.png');
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  &__content {
+    display: flex;
+    position: relative;
+    margin-bottom: 216px;
+  }
+
+  &__text {
+    position: relative;
+  }
+
+  &__title {
+    margin-bottom: 80px;
+  }
+
+  &__subtitle {
+    font-size: 21px;
+    margin-bottom: 48px;
+    max-width: 510px;
+    width: 100%;
+  }
+
+  &__item-title {
+    @extend %kaspersky-700;
+  }
+
+  &__list {
+    padding-left: 34px;
+  }
+
+  &__item {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-image: url('../images/cards/check.svg');
+      background-repeat: no-repeat;
+      top: 10px;
+      left: -37px;
+      width: 20px;
+      height: 20px;
+    }
+
+    &+& {
+      margin-top: 34px;
+    }
+  }
+
+  &__popup {
+    // // position: relative;
+    // width: 787px;
+    // height: 466px;
+    // background-image:url('../images/advantages/popup.png');
+    img {
+      position: absolute;
+      top: -35px;
+    }
+    
+  }
+   &__video {
+     position: absolute;
+   }
+  &__list-bottom{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    h3{
+      font-size: 32px;
+      @extend %kaspersky-700;
+      margin-bottom: 16px;
+      span{
+        display: block;
+      }
+    }
+  }
+  &__item-bottom{
+    max-width: 328px;
+    width: 100%;
+
+    
+  }
+  &__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+     width:130px;
+     height: 130px;
+     border-radius:50%;
+     box-shadow: 0px 4px 20px rgba(92, 133, 150, 0.24);
+     background-color:#fff;
+     margin-bottom: 40px;
+  }
+
+}
+.tariffs{
+  &__names-box{
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__name{
+    display: flex;
+    align-items: start;
+  }
+  &__item{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    &-name{
+      width: 436px;
+    }
+  }
+  &__os{
+    display: flex;
+  }
+}

@@ -1,0 +1,21 @@
+%kaspersky-300 {
+  font-family: "KasperskySans",
+  sans-serif;
+  font-weight: 300;
+}
+%kaspersky-400 {
+  font-family: "KasperskySans",
+  sans-serif;
+  font-weight: 400;
+}
+%kaspersky-700 {
+  font-family: "KasperskySans",
+  sans-serif;
+  font-weight: 700;
+}
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}x(#{$numbers});
+}
