@@ -19,3 +19,13 @@
 @function min($numbers...) {
   @return m#{i}x(#{$numbers});
 }
+%btn{
+  width: 187px;
+  height: 48px;
+  font-size: 20px;
+  color: #FFFFFF;
+  @extend %kaspersky-400;
+  border: none;
+  background-color: #FF3748;
+  border-radius: 3px;
+}

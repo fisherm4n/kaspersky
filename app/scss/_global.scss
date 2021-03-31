@@ -11,10 +11,61 @@ body{
   padding: 0 10px;
   margin: 0 auto;
 }
+.container-b{
+  max-width: 1130px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
 .title{
   font-size: 48px;
   color:#1D1D1B;
   @extend %kaspersky-700;
   letter-spacing: -0.03em;
   text-align: center;
+}
+.subtitle{
+   @extend %kaspersky-300;
+   color:#444444;
+   font-size: 21px;
+   text-align: center;
+}
+.product-info {
+  display: block;
+  font-size: 16px;
+  color: #6D6E71;
+  margin-bottom: 12px;
+  @extend %kaspersky-400;
+}
+
+.product-sale {
+  display: block;
+  margin-bottom: 10px;
+  color: #FF3748;
+  @extend %kaspersky-700;
+
+}
+
+.price-before {
+  font-size: 16px;
+  color: #666666;
+  span {
+      text-decoration-line:  line-through;
+    }
+}
+.current-price{
+  font-size: 64px;
+  line-height: 1;
+  @extend %kaspersky-700;
+  margin-bottom: 6px;
+  span{
+    font-size: 48px;
+  }
+  sup{
+    font-size: 32px;
+
+  }
+}
+.swiper-slide{
+  width: 276px;
 }

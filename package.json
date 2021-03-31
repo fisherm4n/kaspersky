@@ -19,7 +19,8 @@
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.5.1",
-    "rateyo": "^2.3.2"
+    "rateyo": "^2.3.2",
+    "swiper": "^6.5.1"
   },
   "dependencies": {
     "mozjpeg": "^7.0.0"
