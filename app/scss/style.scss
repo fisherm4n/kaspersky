@@ -131,7 +131,7 @@
   }
 
   &__img {
-    img { 
+    img {
       margin-top: -97px;
       min-width: 748px;
       min-height: 694px;
@@ -172,7 +172,7 @@
   .swiper-pagination-fraction,
   .swiper-pagination-custom,
   .swiper-container-horizontal>.swiper-pagination-bullets {
-    bottom:0px;
+    bottom: 0px;
   }
 
   &--bottom {
@@ -723,9 +723,11 @@
     text-align: center;
     margin-bottom: 137px;
   }
+
   &__subtitle {
     display: none;
   }
+
   &__inner {
     display: grid;
     grid-template-columns: minmax(0px, 458px) 648px;
@@ -782,6 +784,139 @@
     .stars {
       margin-bottom: 14px;
       text-align: center;
+    }
+  }
+
+  .tariffs__name--first,
+  .tariffs__name--second,
+  .tariffs__name--third {
+    .tariffs__item {
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        left: 9px;
+        top: 35px;
+      }
+
+      &:first-child::before {
+        top: 310px;
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+    }
+  }
+
+  .tariffs__name--first {
+    .tariffs__item {
+
+      &:nth-child(2)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(3)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(4)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(5)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(6)::before,
+      &:nth-child(7)::before,
+      &:nth-child(8)::before,
+      &:nth-child(9)::before,
+      &:nth-child(10)::before,
+      &:nth-child(11)::before {
+        width: 15px;
+        height: 2px;
+        background-color: #AEAEAE;
+      }
+    }
+  }
+
+  .tariffs__name--second {
+    .tariffs__item {
+      &:nth-child(2)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(3)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(4)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(5)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(6)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(7)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(8)::before,
+      &:nth-child(9)::before,
+      &:nth-child(10)::before,
+      &:nth-child(11)::before {
+        width: 15px;
+        height: 2px;
+        background-color: #AEAEAE;
+      }
+    }
+  }
+  .tariffs__name--third {
+    .tariffs__item {
+      &:nth-child(2)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(3)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(4)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(5)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(6)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+      &:nth-child(7)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+      &:nth-child(8)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+      &:nth-child(9)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+      &:nth-child(10)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+      &:nth-child(11)::before {
+        background-image: url(../images/tariffs/list/yes.svg);
+      }
+
+
     }
   }
 
@@ -1489,11 +1624,13 @@
   .swiper-slide {
     height: auto;
   }
+
   .swiper-pagination-fraction,
   .swiper-pagination-custom,
   .swiper-container-horizontal>.swiper-pagination-bullets {
     bottom: 0px;
   }
+
   &__title-box {
     margin-top: 95px;
   }
@@ -1697,19 +1834,6 @@
     align-items: center;
     margin-bottom: 10px;
 
-    // &::before {
-    //   content: attr(data-icon);
-    //   display: inline-flex;
-    //   margin-right: 60px;
-    //   justify-content: center;
-    //   align-items: center;
-    //   width: 36px;
-    //   height: 36px;
-    //   background-color: #FFFFFF;
-    //   box-shadow: 0px 2px 4px rgba(35, 209, 174, 0.24);
-    //   border-radius: 4px;
-    //   color: #23D1AE;
-    // }
     &-icon {
       display: inline-flex;
       margin-right: 60px;
@@ -1809,6 +1933,7 @@
     background-repeat: no-repeat;
     background-position: 95% 50%;
   }
+
   &__list-mob,
   &__socials-mob {
     display: none;

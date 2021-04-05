@@ -523,6 +523,9 @@
   .swiper-pagination--mob {
     display: none;
   }
+  .energizer__logo{
+    padding-top: 30px;
+  }
 }
 
 @media (max-width:590px) {
@@ -744,7 +747,7 @@
     .swiper-pagination-fraction,
     .swiper-pagination-custom,
     .swiper-container-horizontal>.swiper-pagination-bullets {
-      top: 217px;
+      top: 280px;
       position: absolute;
     }
   }
@@ -812,6 +815,7 @@
       justify-content: center;
       margin: 0 auto;
       width: 280px;
+      margin-top: 64px;
     }
 
     .swiper-pagination-fraction,
@@ -828,6 +832,9 @@
 
     &__item {
       max-width: 100%;
+      &-text{
+        font-size: 21px;
+      }
     }
 
     .tools__list-title {
