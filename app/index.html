@@ -9,323 +9,384 @@
 </head>
 
 <body>
-
   <header class="header">
     <div class="container">
       <div class="header__inner">
-        <a href="#" class="header__logo"><img src="images/logo.svg" alt="logo" class=""></a>
-        <div class="header__select">
-          gbp
+        <div class="header__inner-left">
+          <button class="header__btn">
+            <svg width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="22" height="3" fill="#CCCCCC" />
+              <rect y="6" width="22" height="3" fill="#CCCCCC" />
+              <rect y="12" width="22" height="3" fill="#CCCCCC" />
+            </svg>
+          </button>
+          <a href="#" class="header__logo"><img src="images/logo.svg" alt="logo" class=""></a>
+        </div>
+        <div class="header__inner-right">
+          <div class="header__selects">
+            <select class="header__filter">
+              <option value="gbp">gbp</option>
+              <option value="gbp">gbp</option>
+              <option value="gbp">gbp</option>
+            </select>
+          </div>
+          <a href="#" class="header__basket">
+            <span></span>
+          </a>
         </div>
       </div>
     </div>
   </header>
   <main class="main">
     <section class="energizer">
-      <div class="energizer__inner">
-        <div class="energizer__logo"><img src="images/logo2.png" alt="logo"></div>
-        <div class="energizer__subtitle">
-          Enjoy 20$ free and save up to 60%
-          <span>on your online security</span>
+      <div class="container">
+        <div class="energizer__inner">
+          <div class="energizer__inner-top">
+            <div class="energizer__title-box">
+              <div class="energizer__logo"><img src="images/logo1.svg" alt="logo"><span>&</span><img
+                  src="images/logo1.png" alt="logo"></div>
+              <h2 class="energizer__subtitle">
+                Enjoy 20$ free and save up to 60%
+                on your online security
+              </h2>
+            </div>
+            <img src="images/energbg-mob.png" alt="energizer" class="energizer__img-bg">
+            <img src="images/top-bg-mob.png" alt="energizer" class="energizer__img-mob">
+          </div>
+          <div class="energizer__text">
+            <p>Whatever you need to protect – your PC & mobile devices or your family’s entire digital world – we’ve got
+              the security solutions you need. Our premium solutions are all Android compatible to make sure your mobile
+              is as safe as your PC or laptops.</p>
+            <p>Select the solution that fits best your needs, click on “Buy now”, fill in your personal code received by
+              email in the cart, your discount will apply.</p>
+          </div>
+          <a href="#" class="energizer__link">Terms & Conditions </a>
         </div>
-        <div class="energizer__text">
-          <p>Whatever you need to protect – your PC & mobile devices or your family’s entire digital world – we’ve got
-            the security solutions you need. Our premium solutions are all Android compatible to make sure your mobile
-            is as safe as your PC or laptops.</p>
-          <p>Select the solution that fits best your needs, click on “Buy now”, fill in your personal code received by
-            email in the cart, your discount will apply.</p>
+        <div class="energizer__img">
+          <img src="images/top-bg.png" alt="energizer">
         </div>
-        <a href="#" class="energizer__link">Terms & Conditions </a>
-      </div>
-      <div class="energizer__img">
-        <img src="images/top-bg.png" alt="energizer">
       </div>
     </section>
     <div class="cards">
       <div class="container">
-        <div class="cards__inner">
-          <article class="card">
-            <div class="card__top-box">
-              <div class="card__top">
-                <img src="images/cards/1.svg" alt="Internet Security" class="card__img">
-                <div class="card__top-content">
-                  <h4 class="card__title">Kaspersky</h4>
-                  <div class="card__subtitle">Internet Security</div>
-                  <div class="stars" data-rateyo-rating="4.5"></div>
-                  <span class="card__reviews">(1503 reviews)</span>
-                </div>
-              </div>
-              <ul class="card__list">
-                <li class="card__item">Advanced antivirus & privacy protection for PC, Mac & Mobile</li>
-                <li class="card__item">Includes Webcam Protection, Safe Money Browser & free VPN</li>
-              </ul>
-              <div class="card__user-info">2 User accounts <a class="card__mark" href="#"><img
-                    src="images/cards/mark.svg" alt="mark"></a></div>
-            </div>
-            <div class="card__bottom">
-              <div class="card__plan">
-                <h5 class="card__plan-title">
-                  Choose your plan:
-                </h5>
-                <div class="card__select">
-                  <div class="card__select-l">
-                    <span>
-                      5 Devices,
-                    </span>
-                    <span>
-                      1 Year
-                    </span>
-                  </div>
-                  <span class="card__select-r">
-                    $39.99
-                  </span>
-                </div>
-              </div>
-              <div class="card__bottom-center">
-                <span class="card__tagline">Protect more devices</span>
-                <div class="card__prices">
-                  <div class="card__sales">
-                    <span>
-                      $20 OFF
-                    </span>
-                    <span>
-                      $59.99
-                      <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                    </span>
-                  </div>
-                  <div class="card__prices-value">
-                    <span>$</span>39<sup>,99*</sup>
-                  </div>
-                </div>
-                <button class="card__button" type="button">
-                  Buy now
-                </button>
-                <div class="card__checkbox">
-                  <label class="card__label">
-                    <input type="checkbox" class="card__input">
-                    <span>Auto Renewal</span>
-                    <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                  </label>
-                  <a href="#" class="card__checkbox-link"></a>
-                </div>
-              </div>
-            </div>
-          </article>
-          <article class="card">
-            <span class="card__stick">BEST CHOICE</span>
-            <div class="card__top-box">
-              <div class="card__top">
-                <img src="images/cards/2.svg" alt="Internet Security" class="card__img">
-                <div class="card__top-content">
-                  <h4 class="card__title">Kaspersky</h4>
-                  <div class="card__subtitle">Total Security</div>
-                  <div class="stars" data-rateyo-rating="4.5"></div>
-                  <span class="card__reviews">(1503 reviews)</span>
-                </div>
-              </div>
-              <ul class="card__list">
-                <li class="card__item">Complete security & privacy suite for PC, Mac & Mobile</li>
-                <li class="card__item">Includes Kaspersky Password Manager & Kaspersky Safe Kids</li>
-              </ul>
-              <div class="card__user-info">2 User accounts <a class="card__mark" href="#"><img
-                    src="images/cards/mark.svg" alt="mark"></a></div>
-            </div>
-            <div class="card__bottom">
-              <div class="card__plan">
-                <h5 class="card__plan-title">
-                  Choose your plan:
-                </h5>
-                <div class="card__select">
-                  <div class="card__select-l">
-                    <span>
-                      5 Devices,
-                    </span>
-                    <span>
-                      1 Year
-                    </span>
-                  </div>
-                  <span class="card__select-r">
-                    $49.99
-                  </span>
-                </div>
-              </div>
+        <div class="slider-container swiper-container--ipad">
 
-              <div class="card__bottom-center">
-                <span class="card__tagline">Protect more devices</span>
-                <div class="card__prices">
-                  <div class="card__sales">
-                    <span>
-                      $20 OFF
-                    </span>
-                    <span>
-                      $59.99
-                      <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                    </span>
-                  </div>
-                  <div class="card__prices-value">
-                    <span>$</span>49<sup>,99*</sup>
+          <div class="cards__inner slider-wrapper swiper-wrapper">
+            <article class="card swiper-slide">
+              <div class="card__top-box">
+                <div class="card__top">
+                  <img src="images/cards/1.svg" alt="Internet Security" class="card__img">
+                  <div class="card__top-content">
+                    <h4 class="card__title">Kaspersky</h4>
+                    <div class="card__subtitle">Internet Security</div>
+                    <div class="stars" data-rateyo-rating="4.5"></div>
+                    <span class="card__reviews">(1503 reviews)</span>
                   </div>
                 </div>
-                <button class="card__button" type="button">
-                  Buy now
-                </button>
-                <div class="card__checkbox">
-                  <label class="card__label">
-                    <input type="checkbox" class="card__input">
-                    <span>Auto Renewal</span>
-                    <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                  </label>
-                  <a href="#" class="card__checkbox-link"></a>
+                <ul class="card__list">
+                  <li class="card__item">Advanced antivirus & privacy protection for PC, Mac & Mobile</li>
+                  <li class="card__item">Includes Webcam Protection, Safe Money Browser & free VPN</li>
+                </ul>
+                <div class="card__user-info">2 User accounts <span class="card__mark"><img
+                      src="images/cards/mark.svg" alt="mark"></span></div>
+              </div>
+              <div class="card__bottom">
+                <div class="card__plan">
+                  <h5 class="card__plan-title">
+                    Choose your plan:
+                  </h5>
+                  <div class="card__select">
+                    <div class="card__select-l">
+                      <span>
+                        5 Devices,
+                      </span>
+                      <span>
+                        1 Year
+                      </span>
+                    </div>
+                    <span class="card__select-r">
+                      $49.99
+                    </span>
+                  </div>
+                </div>
+                <div class="card__bottom-center">
+                  <span class="card__tagline">Protect more devices</span>
+                  <div class="card__prices">
+                    <div class="card__sales">
+                      <span>
+                        $20 OFF
+                      </span>
+                      <span>
+                        $59.99
+                        <span class="card__mark"><img src="images/cards/mark.svg" alt="mark"></span>
+                      </span>
+                    </div>
+                    <div class="card__prices-value">
+                      <span>$</span>39<sup>,99*</sup>
+                    </div>
+                  </div>
+                  <button class="card__button" type="button">
+                    Buy now
+                  </button>
+                  <div class="card__checkbox-box">
+                    <label class="card__label">
+                      <input type="checkbox" class="card__input">
+                      <span class="card__checkbox"></span>
+                      <span class="card__renewal">Auto Renewal</span>
+                      <span class="card__mark card__mark--bottom"><img src="images/cards/mark.svg"
+                          alt="mark"></span>
+                    </label>
+                    <a href="#" class="card__checkbox-link"></a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </article>
-          <article class="card">
-            <div class="card__top-box">
-              <div class="card__top">
-                <img src="images/cards/3.svg" alt="Internet Security" class="card__img">
-                <div class="card__top-content">
-                  <h4 class="card__title">Kaspersky</h4>
-                  <div class="card__subtitle">Security Cloud</div>
-                  <span class="card__pesonal">Personal</span>
-                  <div class="stars" data-rateyo-rating="4.5"></div>
-                  <span class="card__reviews">(1503 reviews)</span>
-                </div>
-              </div>
-              <ul class="card__list">
-                <li class="card__item">Check your online accounts for data leaks</li>
-                <li class="card__item">Monitor your home Wi-Fi for intruders</li>
-              </ul>
-              <div class="card__user-info">2 User accounts <a class="card__mark" href="#"><img
-                    src="images/cards/mark.svg" alt="mark"></a></div>
-            </div>
-            <div class="card__bottom">
-              <div class="card__plan">
-                <h5 class="card__plan-title">
-                  Choose your plan:
-                </h5>
-                <div class="card__select">
-                  <div class="card__select-l">
-                    <span>
-                      5 Devices,
-                    </span>
-                    <span>
-                      1 Year
-                    </span>
-                  </div>
-                  <span class="card__select-r">
-                    $29.99
-                  </span>
-                </div>
-              </div>
-              <div class="card__bottom-center">
-                <span class="card__tagline">Protect more devices</span>
-                <div class="card__prices">
-                  <div class="card__sales">
-                    <span>
-                      $20 OFF
-                    </span>
-                    <span>
-                      $59.99
-                      <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                    </span>
-                  </div>
-                  <div class="card__prices-value">
-                    <span>$</span>29<sup>,99*</sup>
+            </article>
+            <article class="card swiper-slide">
+              <span class="card__stick">BEST CHOICE</span>
+              <div class="card__top-box">
+                <div class="card__top">
+                  <img src="images/cards/2.svg" alt="Internet Security" class="card__img">
+                  <div class="card__top-content">
+                    <h4 class="card__title">Kaspersky</h4>
+                    <div class="card__subtitle">Total Security</div>
+                    <div class="stars" data-rateyo-rating="4.5"></div>
+                    <span class="card__reviews">(1503 reviews)</span>
                   </div>
                 </div>
-                <button class="card__button" type="button">
-                  Buy now
-                </button>
-                <div class="card__checkbox">
-                  <label class="card__label">
-                    <input type="checkbox" class="card__input">
-                    <span>Auto Renewal</span>
-                    <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                  </label>
-                  <a href="#" class="card__checkbox-link"></a>
+                <ul class="card__list">
+                  <li class="card__item">Complete security & privacy suite for PC, Mac & Mobile</li>
+                  <li class="card__item">Includes Kaspersky Password Manager & Kaspersky Safe Kids</li>
+                </ul>
+                <div class="card__user-info">2 User accounts <span class="card__mark"><img
+                      src="images/cards/mark.svg" alt="mark"></span></div>
+              </div>
+              <div class="card__bottom">
+                <div class="card__plan">
+                  <h5 class="card__plan-title">
+                    Choose your plan:
+                  </h5>
+                  <div class="card__select">
+                    <div class="card__select-l">
+                      <span>
+                        5 Devices,
+                      </span>
+                      <span>
+                        1 Year
+                      </span>
+                    </div>
+                    <span class="card__select-r">
+                      $49.99
+                    </span>
+                  </div>
+                </div>
+                <div class="card__bottom-center">
+                  <span class="card__tagline">Protect more devices</span>
+                  <div class="card__prices">
+                    <div class="card__sales">
+                      <span>
+                        $20 OFF
+                      </span>
+                      <span>
+                        $59.99
+                        <span class="card__mark"><img src="images/cards/mark.svg" alt="mark"></span>
+                      </span>
+                    </div>
+                    <div class="card__prices-value">
+                      <span>$</span>49<sup>,99*</sup>
+                    </div>
+                  </div>
+                  <button class="card__button" type="button">
+                    Buy now
+                  </button>
+                  <div class="card__checkbox-box">
+                    <label class="card__label">
+                      <input type="checkbox" class="card__input">
+                      <span class="card__checkbox"></span>
+
+                      <span class="card__renewal">Auto Renewal</span>
+                      <span class="card__mark card__mark--bottom"><img src="images/cards/mark.svg"
+                          alt="mark"></span>
+                    </label>
+                    <a href="#" class="card__checkbox-link"></a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </article>
+            </article>
+            <article class="card swiper-slide">
+              <div class="card__top-box">
+                <div class="card__top card__top--personal">
+                  <img src="images/cards/3.svg" alt="Internet Security" class="card__img">
+                  <div class="card__top-content">
+                    <h4 class="card__title">Kaspersky</h4>
+                    <div class="card__subtitle">Security Cloud</div>
+                    <span class="card__pesonal">Personal</span>
+                    <div class="stars" data-rateyo-rating="4.5"></div>
+                    <span class="card__reviews">(1503 reviews)</span>
+                  </div>
+                </div>
+                <ul class="card__list">
+                  <li class="card__item">Check your online accounts for data leaks</li>
+                  <li class="card__item">Monitor your home Wi-Fi for intruders</li>
+                </ul>
+                <div class="card__user-info">2 User accounts <span class="card__mark"><img
+                      src="images/cards/mark.svg" alt="mark"></span></div>
+              </div>
+              <div class="card__bottom">
+                <div class="card__plan">
+                  <h5 class="card__plan-title">
+                    Choose your plan:
+                  </h5>
+                  <div class="card__select">
+                    <div class="card__select-l">
+                      <span>
+                        5 Devices,
+                      </span>
+                      <span>
+                        1 Year
+                      </span>
+                    </div>
+                    <span class="card__select-r">
+                      $29.99
+                    </span>
+                  </div>
+                </div>
+                <div class="card__bottom-center">
+                  <span class="card__tagline">Protect more devices</span>
+                  <div class="card__prices">
+                    <div class="card__sales">
+                      <span>
+                        $20 OFF
+                      </span>
+                      <span>
+                        $59.99
+                        <span class="card__mark"><img src="images/cards/mark.svg" alt="mark"></span>
+                      </span>
+                    </div>
+                    <div class="card__prices-value">
+                      <span>$</span>29<sup>,99*</sup>
+                    </div>
+                  </div>
+                  <button class="card__button" type="button">
+                    Buy now
+                  </button>
+                  <div class="card__checkbox-box">
+                    <label class="card__label">
+                      <input type="checkbox" class="card__input">
+                      <span class="card__checkbox"></span>
+                      <span class="card__renewal">Auto Renewal</span>
+                      <span class="card__mark card__mark--bottom"><img src="images/cards/mark.svg"
+                          alt="mark"></span>
+                    </label>
+                    <a href="#" class="card__checkbox-link"></a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="swiper-pagination swiper-pagination--top"></div>
         </div>
       </div>
+
+
     </div>
     <section class="advantages">
       <div class="container">
         <div class="advantages__inner">
-          <h2 class="advantages__title title">
+          <h2 class="advantages__title advantages__title--desk title">
             Powerful virus scanning. Invaluable peace of mind.
+          </h2>
+          <h2 class="advantages__title advantages__title--ipad title">
+            Complete defense against cyberthreats
           </h2>
           <div class="advantages__content">
             <div class="advantages__text">
-              <p class="advantages__subtitle">Our consumer and enterprise clients get the same world-leading protection
+              <p class="advantages__subtitle advantages__subtitle--desk">Our consumer and enterprise clients get the
+                same
+                world-leading protection
                 technology.</p>
+              <p class="advantages__subtitle advantages__subtitle--ipad">Built with patented adaptive technologies,
+                Kaspersky Security Cloud – Free adjusts to your life to keep you safe. It knows when to alert you, when
+                to warn you and when to step in to block direct threats. And because it’s always on, it protects you
+                round the clock.</p>
               <ul class="advantages__list">
-                <li class="advantages__item">
+                <li class="advantages__item advantages__item--desk">
                   <h3 class="advantages__item-title">Artificial intelligence</h3>
                   Machine learning detects new threats as they emerge
                 </li>
-                <li class="advantages__item">
+                <li class="advantages__item advantages__item--desk">
                   <h3 class="advantages__item-title">1500 threat analysts</h3>
                   Our experts assess malware and guide our software to remove it
                 </li>
-                <li class="advantages__item">
+                <li class="advantages__item advantages__item--desk">
                   <h3 class="advantages__item-title">
                     Lorem Ipsum Placeholder
                   </h3>
                   Lorem Ipsum Placeholder
                 </li>
+                <li class="advantages__item advantages__item--ipad">
+                  <h3 class="advantages__item-title">Proactive detection</h3>
+                  Searches out device vulnerabilities & threats
+                </li>
+                <li class="advantages__item advantages__item--ipad">
+                  <h3 class="advantages__item-title">Real-time protection</h3>
+                  Blocks cyberthreats before they take hold
+                </li>
+                <li class="advantages__item advantages__item--ipad">
+                  <h3 class="advantages__item-title">
+                    Instant neutralization
+                  </h3>
+                  Isolates & removes immediate dangers
+                </li>
               </ul>
             </div>
             <a data-fancybox href="https://www.youtube.com/watch?v=qLWQ0fh-rN4&t=1s" class="advantages__popup">
-              <img src="images/advantages/popup.png" alt="video">
+              <img class="advantages__img-desk" src="images/advantages/popup.png" alt="video">
+              <img class="advantages__img-ipad" src="images/advantages/popup-ipad.png" alt="video">
             </a>
           </div>
         </div>
-        <ul class="advantages__list-bottom">
-          <li class="advantages__item-bottom">
-            <div class="advantages__img">
-
-              <img src="images/advantages/1.svg" alt="scanning">
-
-            </div>
-            <h3>Faster <span>threat scanning</span></h3>
-            Our artificial intelligence analyzes huge data pools to automate our response to viruses, ransomware &
-            other common threats.
-          </li>
-          <li class="advantages__item-bottom">
-            <div class="advantages__img">
-
-              <img src="images/advantages/2.svg" alt="identification">
-            </div>
-
-            <h3>Better <span>threat identification</span></h3>
-            Threats like phishing & spyware are identified using mathematical models that dynamically examine the
-            behavior of files & objects.
-          </li>
-          <li class="advantages__item-bottom">
-            <div class="advantages__img">
-
-              <img src="images/advantages/3.svg" alt="removal">
-
-            </div>
-            <h3>Smarter <span>threat removal</span></h3>
-            The Kaspersky Security Network processes anonymized user data to automatically identify & block new and as
-            yet unknown threats.
-          </li>
-        </ul>
-      </div>
+        <div class="swiper-container--ipad">
+          <ul class="advantages__list-bottom swiper-wrapper">
+            <li class="advantages__item-bottom swiper-slide">
+              <div class="advantages__img">
+                <img src="images/advantages/1.svg" alt="scanning">
+              </div>
+              <h3>Faster <span>threat scanning</span></h3>
+              Our artificial intelligence analyzes huge data pools to automate our response to viruses, ransomware &
+              other common threats.
+            </li>
+            <li class="advantages__item-bottom swiper-slide">
+              <div class="advantages__img">
+                <img src="images/advantages/2.svg" alt="identification">
+              </div>
+              <h3>Better <span>threat identification</span></h3>
+              Threats like phishing & spyware are identified using mathematical models that dynamically examine the
+              behavior of files & objects.
+            </li>
+            <li class="advantages__item-bottom swiper-slide">
+              <div class="advantages__img">
+                <img src="images/advantages/3.svg" alt="removal">
+              </div>
+              <h3>Smarter <span>threat removal</span></h3>
+              The Kaspersky Security Network processes anonymized user data to automatically identify & block new and as
+              yet unknown threats.
+            </li>
+          </ul>
+          <div class="swiper-pagination swiper-pagination--top"></div>
+        </div>
       </div>
     </section>
     <section class="tariffs">
       <div class="container">
-        <h2 class="tariffs__title">
+        <h2 class="tariffs__title title">
           Choose the protection that's right for you
         </h2>
-        <div class="tariffs__inner">
-          <div class="tariffs__names-box">
-            <div class="tariffs__name">
+        <h3 class="tariffs__subtitle subtitle">
+          Explore the security features in each of our products below
+        </h3>
+        <div class="tariffs__inner swiper-container--logo">
+          <div class="tariffs__names-box swiper-wrapper">
+            <div class="tariffs__name swiper-slide">
               <div class="tariffs__name-inner">
                 <h3 class="tariffs__name-title">
                   <img src="images/tariffs/names/1.svg" alt="Kaspersky Security Cloud" class="tariffs__name-img">
@@ -338,7 +399,6 @@
                     (1503 reviews)
                   </span>
                 </div>
-
                 <div class="tariffs__os">
                   <img src="images/tariffs/os/win.svg" alt="">
                 </div>
@@ -346,9 +406,177 @@
                   From $ <span>29.99 </span>
                 </div>
               </div>
+              <div class="tariffs__mobile">
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Block viruses & malware
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Scan, detect & remove the latest cyber threats.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Filter phishing emails
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Screen your emails so you don’t get tricked by scammers
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Protect your computer against ransomware
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Prevent your devices from being hijacked.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Defend your network agains attacks
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Detect & stop attempts to attack your network & access your computer.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Payment protection
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Stop hackers intercepting your credit cards details
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Block hacker attack with a two-way firewall
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Stop hackers accessing your PC over the network
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Use your PC without leaving a trace
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Wipe all records of your computer activity, forever
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Protect multiple devices
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Secure your PC, Mac & Android devices under one license
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Block unauthorized access to your webcams
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Stop webcam spies watching you in your home
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Keep your confidential files safe & secure
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Encrypt your files & store them in a vault only you can unlock
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Create unhackable passwords & never forget them
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Store your passwords in a secure vault & auto-fill online forms.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="tariffs__name">
+            <div class="tariffs__name swiper-slide">
               <div class="tariffs__name-inner">
+
                 <h3 class="tariffs__name-title">
                   <img src="images/tariffs/names/2.svg" alt="Kaspersky
                       Internet Security" class="tariffs__name-img">
@@ -361,7 +589,6 @@
                     (1503 reviews)
                   </span>
                 </div>
-
                 <div class="tariffs__os">
                   <img src="images/tariffs/os/win.svg" alt="win">
                   <img src="images/tariffs/os/mac.svg" alt="mac">
@@ -371,9 +598,175 @@
                   From $ <span>29.99 </span>
                 </div>
               </div>
+              <div class="tariffs__mobile">
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Block viruses & malware
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Scan, detect & remove the latest cyber threats.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Filter phishing emails
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Screen your emails so you don’t get tricked by scammers
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Protect your computer against ransomware
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Prevent your devices from being hijacked.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Defend your network agains attacks
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Detect & stop attempts to attack your network & access your computer.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Payment protection
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Stop hackers intercepting your credit cards details
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Block hacker attack with a two-way firewall
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Stop hackers accessing your PC over the network
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Use your PC without leaving a trace
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Wipe all records of your computer activity, forever
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Protect multiple devices
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Secure your PC, Mac & Android devices under one license
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Block unauthorized access to your webcams
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Stop webcam spies watching you in your home
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Keep your confidential files safe & secure
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Encrypt your files & store them in a vault only you can unlock
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Create unhackable passwords & never forget them
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Store your passwords in a secure vault & auto-fill online forms.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="tariffs__name">
-
+            <div class="tariffs__name swiper-slide">
               <div class="tariffs__name-inner">
                 <h3 class="tariffs__name-title">
                   <img src="images/tariffs/names/3.svg" alt="Kaspersky
@@ -387,7 +780,6 @@
                     (1503 reviews)
                   </span>
                 </div>
-
                 <div class="tariffs__os">
                   <img src="images/tariffs/os/win.svg" alt="win">
                   <img src="images/tariffs/os/mac.svg" alt="mac">
@@ -398,491 +790,677 @@
                   From $ <span>29.99 </span>
                 </div>
               </div>
-
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/1.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Block viruses & malware
-                </h3>
-                <p class="tariffs__item-text">
-                  Scan, detect & remove the latest cyber threats.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
+              <div class="tariffs__mobile">
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Block viruses & malware
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Scan, detect & remove the latest cyber threats.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Filter phishing emails
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Screen your emails so you don’t get tricked by scammers
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Protect your computer against ransomware
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Prevent your devices from being hijacked.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Defend your network agains attacks
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Detect & stop attempts to attack your network & access your computer.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Payment protection
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Stop hackers intercepting your credit cards details
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Block hacker attack with a two-way firewall
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Stop hackers accessing your PC over the network
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Use your PC without leaving a trace
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Wipe all records of your computer activity, forever
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Protect multiple devices
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Secure your PC, Mac & Android devices under one license
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Block unauthorized access to your webcams
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Stop webcam spies watching you in your home
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Keep your confidential files safe & secure
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Encrypt your files & store them in a vault only you can unlock
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="tariffs__item">
+                  <div class="tariffs__item-name">
+                    <div class="tariffs__item-inner">
+                      <h4 class="tariffs__item-title">
+                        Create unhackable passwords & never forget them
+                      </h4>
+                      <p class="tariffs__item-text">
+                        Store your passwords in a secure vault & auto-fill online forms.
+                      </p>
+                      <a href="#" class="tariffs__item-more">
+                        More info
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="tariffs__img-box">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+          <div class="swiper-pagination swiper-pagination--mob"></div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/1.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Block viruses & malware
+              </h4>
+              <p class="tariffs__item-text">
+                Scan, detect & remove the latest cyber threats.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
             </div>
           </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/2.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Filter phishing emails
-                </h3>
-                <p class="tariffs__item-text">
-                  Screen your emails so you don’t get tricked by scammers
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/3.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Protect your computer against ransomware
-                </h3>
-                <p class="tariffs__item-text">
-                  Prevent your devices from being hijacked.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/4.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Defend your network against attacks
-                </h3>
-                <p class="tariffs__item-text">
-                  Detect & stop attempts to attack your network & access your computer.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/5.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Payment protection
-                </h3>
-                <p class="tariffs__item-text">
-                  Stop hackers intercepting your credit card details.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/6.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Block hacker attacks with a two-way firewall
-                </h3>
-                <p class="tariffs__item-text">
-                  Stop hackers accessing your PC over the network.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <span></span>
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/7.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Use your PC without leaving a trace
-                </h3>
-                <p class="tariffs__item-text">
-                  Wipe all records of your computer activity, forever.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <span></span>
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/8.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Protect multiple devices
-                </h3>
-                <p class="tariffs__item-text">
-                  Secure your PC, Mac & Android devices under one license.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <span></span>
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/9.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Block unauthorized access to your webcams
-                </h3>
-                <p class="tariffs__item-text">
-                  Stop webcam spies watching you in your home.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <span></span>
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/10.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Keep your confidential files safe & secure
-                </h3>
-                <p class="tariffs__item-text">
-                  Encrypt your files & store them in a vault only you can unlock.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <span></span>
-              <span></span>
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/11.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Create unhackable passwords & never forget them
-                </h3>
-                <p class="tariffs__item-text">
-                  Store your passwords in a secure vault & auto-fill online forms.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <span></span>
-              <span></span>
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
-          </div>
-          <div class="tariffs__item">
-            <div class="tariffs__item-name">
-              <img src="images/tariffs/list/12.svg" alt="Block viruses " class="tariffs__item-img">
-              <div class="tariffs__item-inner">
-                <h3 class="tariffs__item-title">
-                  Exceptional parental controls
-                </h3>
-                <p class="tariffs__item-text">
-                  Keep your kids safe online & locate them with GPS.
-                </p>
-                <a href="#" class="tariffs__item-more">
-                  More info
-                </a>
-              </div>
-            </div>
-            <div class="tariffs__img-box">
-              <span></span>
-              <span></span>
-              <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
-            </div>
+          <div class="tariffs__img-box">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
           </div>
         </div>
-        <div class="devices">
-          <div class="container">
-            <article class="devices-card">
-              <div class="devices-card__label-box">
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="39" onchange="radioget($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>3 Devices</span>
-                      <span>$39.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">1 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="79" onchange="radioget($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>3 Devices</span>
-                      <span>$79.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">2 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="119" onchange="radioget($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>3 Devices</span>
-                      <span>$119.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">3 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="44" onchange="radioget($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>5 Devices</span>
-                      <span>$44.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">1 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="89" onchange="radioget($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>5 Devices</span>
-                      <span>$89.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">2 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="134" onchange="radioget($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>5 Devices</span>
-                      <span>$134.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">3 Year</span>
-                  </div>
-                </label>
-              </div>
-              <span class="devices-card__subtitle product-info">Protect more devices</span>
-              <span class="devices-card__saving product-sale">SAVE 50% </span>
-              <div class="devices-card__before price-before ">
-                Previously: <span>£59.99</span>
-              </div>
-              <div class="devices-card__now-box current-price">
-                <span>$</span><label class="devices-card__now" id="realprice">29</label><sup>.99</sup>
-              </div>
-              <button class="devices-card__btn" type="button">
-                Buy now
-              </button>
-            </article>
-            <article class="devices-card">
-              <div class="devices-card__label-box">
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="39" onchange="radioget2($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>3 Devices</span>
-                      <span>$39.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">1 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="79" onchange="radioget2($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>3 Devices</span>
-                      <span>$79.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">2 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="119" onchange="radioget2($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>3 Devices</span>
-                      <span>$119.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">3 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="44" onchange="radioget2($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>5 Devices</span>
-                      <span>$44.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">1 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="89" onchange="radioget2($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>5 Devices</span>
-                      <span>$89.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">2 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="134" onchange="radioget2($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>5 Devices</span>
-                      <span>$134.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">3 Year</span>
-                  </div>
-                </label>
-              </div>
-              <span class="devices-card__subtitle product-info">Protect more devices</span>
-              <span class="devices-card__saving product-sale">SAVE 50% </span>
-              <div class="devices-card__before price-before ">
-                Previously: <span>£59.99</span>
-              </div>
-              <div class="devices-card__now-box current-price">
-                <span>$</span><label class="devices-card__now" id="realprice-2">29</label><sup>.99</sup>
-              </div>
-              <button class="devices-card__btn" type="button">
-                Buy now
-              </button>
-            </article>
-            <article class="devices-card">
-              <div class="devices-card__label-box">
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="39" onchange="radioget3($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>3 Devices</span>
-                      <span>$39.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">1 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="79" onchange="radioget3($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>3 Devices</span>
-                      <span>$79.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">2 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="119" onchange="radioget3($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>3 Devices</span>
-                      <span>$119.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">3 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="44" onchange="radioget3($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>5 Devices</span>
-                      <span>$44.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">1 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="89" onchange="radioget3($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>5 Devices</span>
-                      <span>$89.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">2 Year</span>
-                  </div>
-                </label>
-                <label class="devices-card__label">
-                  <input type="radio" name="radioName" value="134" onchange="radioget3($(this).val())">
-                  <div class="devices-card__content">
-                    <div class="devices-card__content-inner">
-                      <span>5 Devices</span>
-                      <span>$134.99*</span>
-                    </div>
-                    <span class="devices-card__content-year">3 Year</span>
-                  </div>
-                </label>
-              </div>
-              <span class="devices-card__subtitle product-info">Protect more devices</span>
-              <span class="devices-card__saving product-sale">SAVE 50% </span>
-              <div class="devices-card__before price-before ">
-                Previously: <span>£59.99</span>
-              </div>
-              <div class="devices-card__now-box current-price">
-                <span>$</span><label class="devices-card__now" id="realprice-3">29</label><sup>.99</sup>
-              </div>
-              <button class="devices-card__btn" type="button">
-                Buy now
-              </button>
-            </article>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/2.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Filter phishing emails
+              </h4>
+              <p class="tariffs__item-text">
+                Screen your emails so you don’t get tricked by scammers
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
           </div>
         </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/3.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Protect your computer against ransomware
+              </h4>
+              <p class="tariffs__item-text">
+                Prevent your devices from being hijacked.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/4.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Defend your network against attacks
+              </h4>
+              <p class="tariffs__item-text">
+                Detect & stop attempts to attack your network & access your computer.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/5.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Payment protection
+              </h4>
+              <p class="tariffs__item-text">
+                Stop hackers intercepting your credit card details.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/6.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Block hacker attacks with a two-way firewall
+              </h4>
+              <p class="tariffs__item-text">
+                Stop hackers accessing your PC over the network.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <span></span>
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/7.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Use your PC without leaving a trace
+              </h4>
+              <p class="tariffs__item-text">
+                Wipe all records of your computer activity, forever.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <span></span>
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/8.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Protect multiple devices
+              </h4>
+              <p class="tariffs__item-text">
+                Secure your PC, Mac & Android devices under one license.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <span></span>
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/9.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Block unauthorized access to your webcams
+              </h4>
+              <p class="tariffs__item-text">
+                Stop webcam spies watching you in your home.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <span></span>
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/10.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Keep your confidential files safe & secure
+              </h4>
+              <p class="tariffs__item-text">
+                Encrypt your files & store them in a vault only you can unlock.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <span></span>
+            <span></span>
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/11.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Create unhackable passwords & never forget them
+              </h4>
+              <p class="tariffs__item-text">
+                Store your passwords in a secure vault & auto-fill online forms.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <span></span>
+            <span></span>
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item-name">
+            <img src="images/tariffs/list/12.svg" alt="Block viruses " class="tariffs__item-img">
+            <div class="tariffs__item-inner">
+              <h4 class="tariffs__item-title">
+                Exceptional parental controls
+              </h4>
+              <p class="tariffs__item-text">
+                Keep your kids safe online & locate them with GPS.
+              </p>
+              <a href="#" class="tariffs__item-more">
+                More info
+              </a>
+            </div>
+          </div>
+          <div class="tariffs__img-box">
+            <span></span>
+            <span></span>
+            <img class="tariffs__img" src="images/tariffs/list/yes.svg" alt="angle">
+          </div>
+        </div>
+      </div>
+      <div class="devices">
+        <div class="container">
+          <div class="devices-card">
+            <div class="devices-card__label-box">
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="39"
+                  onchange="radioget($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>3 Devices</span>
+                    <span>$39.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">1 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="79"
+                  onchange="radioget($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>3 Devices</span>
+                    <span>$79.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">2 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="119"
+                  onchange="radioget($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>3 Devices</span>
+                    <span>$119.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">3 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="44"
+                  onchange="radioget($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>5 Devices</span>
+                    <span>$44.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">1 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="89"
+                  onchange="radioget($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>5 Devices</span>
+                    <span>$89.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">2 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="134"
+                  onchange="radioget($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>5 Devices</span>
+                    <span>$134.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">3 Year</span>
+                </span>
+              </label>
+            </div>
+            <span class="devices-card__subtitle product-info">Protect more devices</span>
+            <span class="devices-card__saving product-sale">SAVE 50% </span>
+            <div class="devices-card__before price-before ">
+              Previously: <span>£59.99</span>
+            </div>
+            <div class="devices-card__now-box current-price">
+              <span>$</span><label class="devices-card__now" id="realprice">29</label><sup>.99</sup>
+            </div>
+            <button class="devices-card__btn" type="button">
+              Buy now
+            </button>
+          </div>
+          <div class="devices-card">
+            <div class="devices-card__label-box">
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="39"
+                  onchange="radioget2($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>3 Devices</span>
+                    <span>$39.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">1 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="79"
+                  onchange="radioget2($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>3 Devices</span>
+                    <span>$79.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">2 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="119"
+                  onchange="radioget2($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>3 Devices</span>
+                    <span>$119.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">3 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="44"
+                  onchange="radioget2($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>5 Devices</span>
+                    <span>$44.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">1 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="89"
+                  onchange="radioget2($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>5 Devices</span>
+                    <span>$89.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">2 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="134"
+                  onchange="radioget2($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>5 Devices</span>
+                    <span>$134.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">3 Year</span>
+                </span>
+              </label>
+            </div>
+            <span class="devices-card__subtitle product-info">Protect more devices</span>
+            <span class="devices-card__saving product-sale">SAVE 50% </span>
+            <div class="devices-card__before price-before ">
+              Previously: <span>£59.99</span>
+            </div>
+            <div class="devices-card__now-box current-price">
+              <span>$</span><label class="devices-card__now" id="realprice-2">29</label><sup>.99</sup>
+            </div>
+            <button class="devices-card__btn" type="button">
+              Buy now
+            </button>
+          </div>
+          <div class="devices-card">
+            <div class="devices-card__label-box">
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="39"
+                  onchange="radioget3($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>3 Devices</span>
+                    <span>$39.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">1 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="79"
+                  onchange="radioget3($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>3 Devices</span>
+                    <span>$79.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">2 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="119"
+                  onchange="radioget3($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>3 Devices</span>
+                    <span>$119.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">3 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="44"
+                  onchange="radioget3($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>5 Devices</span>
+                    <span>$44.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">1 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="89"
+                  onchange="radioget3($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>5 Devices</span>
+                    <span>$89.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">2 Year</span>
+                </span>
+              </label>
+              <label class="devices-card__label">
+                <input class="devices-card__input" type="radio" name="radioName" value="134"
+                  onchange="radioget3($(this).val())">
+                <span class="devices-card__content">
+                  <span class="devices-card__content-inner">
+                    <span>5 Devices</span>
+                    <span>$134.99*</span>
+                  </span>
+                  <span class="devices-card__content-year">3 Year</span>
+                </span>
+              </label>
+            </div>
+            <span class="devices-card__subtitle product-info">Protect more devices</span>
+            <span class="devices-card__saving product-sale">SAVE 50% </span>
+            <div class="devices-card__before price-before ">
+              Previously: <span>£59.99</span>
+            </div>
+            <div class="devices-card__now-box current-price">
+              <span>$</span><label class="devices-card__now" id="realprice-3">29</label><sup>.99</sup>
+            </div>
+            <button class="devices-card__btn" type="button">
+              Buy now
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <section class="products">
       <div class="container">
@@ -896,12 +1474,12 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <article class="product">
-                <div class="product__title">
+                <h3 class="product__title">
                   Kaspersky
                   <span class="product__subtitle">
                     Anti-Virus
                   </span>
-                </div>
+                </h3>
                 <div class="product__rate">
                   <div class="orange-rateyo" data-rateyo-rating="4.5"></div>
                   <span class="product__reviews">7060 reviews</span>
@@ -929,12 +1507,12 @@
             </div>
             <div class="swiper-slide">
               <article class="product product--2">
-                <div class="product__title">
+                <h3 class="product__title">
                   Kaspersky
                   <span class="product__subtitle">
                     Internet Security
                   </span>
-                </div>
+                </h3>
                 <div class="product__rate">
                   <div class="orange-rateyo" data-rateyo-rating="4.5"></div>
                   <span class="product__reviews">7060 reviews</span>
@@ -962,12 +1540,12 @@
             </div>
             <div class="swiper-slide">
               <article class="product product--3">
-                <div class="product__title">
+                <h3 class="product__title">
                   Kaspersky
                   <span class="product__subtitle">
                     Total Security
                   </span>
-                </div>
+                </h3>
                 <div class="product__rate">
                   <div class="orange-rateyo" data-rateyo-rating="4.5"></div>
                   <span class="product__reviews">7060 reviews</span>
@@ -995,12 +1573,12 @@
             </div>
             <div class="swiper-slide">
               <article class="product product--4">
-                <div class="product__title">
+                <h3 class="product__title">
                   Kaspersky
                   <span class="product__subtitle">
                     Security Cloud
                   </span>
-                </div>
+                </h3>
                 <div class="product__rate">
                   <div class="orange-rateyo" data-rateyo-rating="4.5"></div>
                   <span class="product__reviews">7060 reviews</span>
@@ -1028,12 +1606,12 @@
             </div>
             <div class="swiper-slide">
               <article class="product product--5">
-                <div class="product__title">
+                <h3 class="product__title">
                   Kaspersky
                   <span class="product__subtitle">
                     Internet Security
                   </span>
-                </div>
+                </h3>
                 <div class="product__rate">
                   <div class="orange-rateyo" data-rateyo-rating="4.5"></div>
                   <span class="product__reviews">7060 reviews</span>
@@ -1061,12 +1639,12 @@
             </div>
             <div class="swiper-slide">
               <article class="product product--6">
-                <div class="product__title">
+                <h3 class="product__title">
                   Kaspersky
                   <span class="product__subtitle">
                     Security Cloud
                   </span>
-                </div>
+                </h3>
                 <div class="product__rate">
                   <div class="orange-rateyo" data-rateyo-rating="4.5"></div>
                   <span class="product__reviews">7060 reviews</span>
@@ -1110,40 +1688,253 @@
           <div class="tools__item">
             <h3 class="tools__item-title">Anti-Virus Defense</h3>
             <p class="tools__item-text">Multilayered protection designed to prevent & neutralize malware.</p>
-            <a href="#" class="tools__item-link">More info</a>
+            <div class="tools__list-more">
+
+              <div class="tools__list-title"><span>More info +</span> <span>Close details -</span></div>
+              <ul class="tools__list-text">
+                <li>
+                  <h4>Real-Time Antivirus</h4>
+                  <p>
+                    Continuously scans your Mac and PC for cyberthreats including viruses, worms, Trojans,
+                    cryptolockers,
+                    rootkits and spyware. Guarding you from established online threats, as well as new and emerging
+                    dangers.
+                  </p>
+                </li>
+                <li>
+                  <h4>Automatic Exploit Prevention (Windows Only)</h4>
+                  <p>
+                    Identifies complex network exploits across your PC. This includes the detection of the EternalBlue
+                    and SMBloris exploits, both of which can crash operating systems and make your computers unusable.
+                  </p>
+                </li>
+                <li>
+                  <h4>Trojan Remover(Windows Only)</h4>
+                  <p>
+                    Searches out and extracts Trojan horse viruses and internet worms that clog up your PC and
+                    negatively affect its performance. This is done automatically so there’s no need for you to manually
+                    edit system files.
+                  </p>
+                </li>
+                <li>
+                  <h4>Instant Threat Detection</h4>
+                  <p>
+                    Delivers real-time, non-stop analysis of files, applications and websites across your Mac and PC.
+                    Safeguarding you and your data with rapid threat detection and resolution.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="tools__item">
             <h3 class="tools__item-title">Anti-Hacking</h3>
             <p class="tools__item-text">Prevent unauthorized access & hijacking of your computer and mobile devices.</p>
-            <a href="#" class="tools__item-link">More info</a>
+            <div class="tools__list-more">
+              <div class="tools__list-title"><span>More info +</span> <span>Close details -</span></div>
+              <ul class="tools__list-text">
+                <li>
+                  <h4>Real-Time Antivirus</h4>
+                  <p>
+                    Continuously scans your Mac and PC for cyberthreats including viruses, worms, Trojans,
+                    cryptolockers,
+                    rootkits and spyware. Guarding you from established online threats, as well as new and emerging
+                    dangers.
+                  </p>
+                </li>
+                <li>
+                  <h4>Automatic Exploit Prevention (Windows Only)</h4>
+                  <p>
+                    Identifies complex network exploits across your PC. This includes the detection of the EternalBlue
+                    and SMBloris exploits, both of which can crash operating systems and make your computers unusable.
+                  </p>
+                </li>
+                <li>
+                  <h4>Trojan Remover(Windows Only)</h4>
+                  <p>
+                    Searches out and extracts Trojan horse viruses and internet worms that clog up your PC and
+                    negatively affect its performance. This is done automatically so there’s no need for you to manually
+                    edit system files.
+                  </p>
+                </li>
+                <li>
+                  <h4>Instant Threat Detection</h4>
+                  <p>
+                    Delivers real-time, non-stop analysis of files, applications and websites across your Mac and PC.
+                    Safeguarding you and your data with rapid threat detection and resolution.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="tools__item">
             <h3 class="tools__item-title">High-Tech Protection</h3>
             <p class="tools__item-text">Advanced scanning to detect fileless malware & Zero-Day threats.</p>
-            <a href="#" class="tools__item-link">More info</a>
+            <div class="tools__list-more">
+              <div class="tools__list-title"><span>More info +</span> <span>Close details -</span></div>
+              <ul class="tools__list-text">
+                <li>
+                  <h4>Real-Time Antivirus</h4>
+                  <p>
+                    Continuously scans your Mac and PC for cyberthreats including viruses, worms, Trojans,
+                    cryptolockers,
+                    rootkits and spyware. Guarding you from established online threats, as well as new and emerging
+                    dangers.
+                  </p>
+                </li>
+                <li>
+                  <h4>Automatic Exploit Prevention (Windows Only)</h4>
+                  <p>
+                    Identifies complex network exploits across your PC. This includes the detection of the EternalBlue
+                    and SMBloris exploits, both of which can crash operating systems and make your computers unusable.
+                  </p>
+                </li>
+                <li>
+                  <h4>Trojan Remover(Windows Only)</h4>
+                  <p>
+                    Searches out and extracts Trojan horse viruses and internet worms that clog up your PC and
+                    negatively affect its performance. This is done automatically so there’s no need for you to manually
+                    edit system files.
+                  </p>
+                </li>
+                <li>
+                  <h4>Instant Threat Detection</h4>
+                  <p>
+                    Delivers real-time, non-stop analysis of files, applications and websites across your Mac and PC.
+                    Safeguarding you and your data with rapid threat detection and resolution.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="tools__item">
             <h3 class="tools__item-title">Privacy Protection</h3>
             <p class="tools__item-text">Encrypt your personal & browsing data while stopping cybercriminals from spying.
             </p>
-            <a href="#" class="tools__item-link">More info</a>
+            <div class="tools__list-more">
+              <div class="tools__list-title"><span>More info +</span> <span>Close details -</span></div>
+              <ul class="tools__list-text">
+                <li>
+                  <h4>Real-Time Antivirus</h4>
+                  <p>
+                    Continuously scans your Mac and PC for cyberthreats including viruses, worms, Trojans,
+                    cryptolockers,
+                    rootkits and spyware. Guarding you from established online threats, as well as new and emerging
+                    dangers.
+                  </p>
+                </li>
+                <li>
+                  <h4>Automatic Exploit Prevention (Windows Only)</h4>
+                  <p>
+                    Identifies complex network exploits across your PC. This includes the detection of the EternalBlue
+                    and SMBloris exploits, both of which can crash operating systems and make your computers unusable.
+                  </p>
+                </li>
+                <li>
+                  <h4>Trojan Remover(Windows Only)</h4>
+                  <p>
+                    Searches out and extracts Trojan horse viruses and internet worms that clog up your PC and
+                    negatively affect its performance. This is done automatically so there’s no need for you to manually
+                    edit system files.
+                  </p>
+                </li>
+                <li>
+                  <h4>Instant Threat Detection</h4>
+                  <p>
+                    Delivers real-time, non-stop analysis of files, applications and websites across your Mac and PC.
+                    Safeguarding you and your data with rapid threat detection and resolution.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="tools__item">
             <h3 class="tools__item-title">Extended Protection</h3>
             <p class="tools__item-text">Protection features for your home, Wi-Fi network & peripherals.</p>
-            <a href="#" class="tools__item-link">More info</a>
+            <div class="tools__list-more">
+              <div class="tools__list-title"><span>More info +</span> <span>Close details -</span></div>
+              <ul class="tools__list-text">
+                <li>
+                  <h4>Real-Time Antivirus</h4>
+                  <p>
+                    Continuously scans your Mac and PC for cyberthreats including viruses, worms, Trojans,
+                    cryptolockers,
+                    rootkits and spyware. Guarding you from established online threats, as well as new and emerging
+                    dangers.
+                  </p>
+                </li>
+                <li>
+                  <h4>Automatic Exploit Prevention (Windows Only)</h4>
+                  <p>
+                    Identifies complex network exploits across your PC. This includes the detection of the EternalBlue
+                    and SMBloris exploits, both of which can crash operating systems and make your computers unusable.
+                  </p>
+                </li>
+                <li>
+                  <h4>Trojan Remover(Windows Only)</h4>
+                  <p>
+                    Searches out and extracts Trojan horse viruses and internet worms that clog up your PC and
+                    negatively affect its performance. This is done automatically so there’s no need for you to manually
+                    edit system files.
+                  </p>
+                </li>
+                <li>
+                  <h4>Instant Threat Detection</h4>
+                  <p>
+                    Delivers real-time, non-stop analysis of files, applications and websites across your Mac and PC.
+                    Safeguarding you and your data with rapid threat detection and resolution.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="tools__item">
             <h3 class="tools__item-title">Kids Protection</h3>
             <p class="tools__item-text">Advanced parental controls to track, filter & protect your kids’ online
               activities.</p>
-            <a href="#" class="tools__item-link">More info</a>
+            <div class="tools__list-more">
+              <div class="tools__list-title"><span>More info +</span> <span>Close details -</span></div>
+              <ul class="tools__list-text">
+                <li>
+                  <h4>Real-Time Antivirus</h4>
+                  <p>
+                    Continuously scans your Mac and PC for cyberthreats including viruses, worms, Trojans,
+                    cryptolockers,
+                    rootkits and spyware. Guarding you from established online threats, as well as new and emerging
+                    dangers.
+                  </p>
+                </li>
+                <li>
+                  <h4>Automatic Exploit Prevention (Windows Only)</h4>
+                  <p>
+                    Identifies complex network exploits across your PC. This includes the detection of the EternalBlue
+                    and SMBloris exploits, both of which can crash operating systems and make your computers unusable.
+                  </p>
+                </li>
+                <li>
+                  <h4>Trojan Remover(Windows Only)</h4>
+                  <p>
+                    Searches out and extracts Trojan horse viruses and internet worms that clog up your PC and
+                    negatively affect its performance. This is done automatically so there’s no need for you to manually
+                    edit system files.
+                  </p>
+                </li>
+                <li>
+                  <h4>Instant Threat Detection</h4>
+                  <p>
+                    Delivers real-time, non-stop analysis of files, applications and websites across your Mac and PC.
+                    Safeguarding you and your data with rapid threat detection and resolution.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
+
         </div>
       </div>
     </section>
     <section class="merits">
       <img src="images/merits/bg.png" alt="merits" class="merits__img">
+      <img src="images/merits/bg-ipad.png" alt="merits" class="merits__img-ipad">
       <div class="merits__inner">
         <h2 class="merits__title title">
           <span>Most tested.</span>
@@ -1153,10 +1944,19 @@
         <p class="merits__text">
           In 2019, Kaspersky products entered 84 independent tests – winning 64 first-place awards
         </p>
-        <div class="merits__prizes">
-          <img src="images/merits/prize1.png" alt="prizes">
-          <img src="images/merits/prize2.png" alt="prizes">
-          <img src="images/merits/prize3.png" alt="prizes">
+        <div class="swiper-container--logo">
+          <div class="merits__prizes swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/merits/prize1.png" alt="prizes">
+            </div>
+            <div class="swiper-slide">
+              <img src="images/merits/prize2.png" alt="prizes">
+            </div>
+            <div class="swiper-slide">
+              <img src="images/merits/prize3.png" alt="prizes">
+            </div>
+          </div>
+          <div class="swiper-pagination swiper-pagination--mob"></div>
         </div>
         <a href="#" class="merits__link">See all of our awards</a>
       </div>
@@ -1168,375 +1968,571 @@
             <h2 class="reviews__title title">The reviews are in</h2>
             <h3 class="reviews__subtitle">Find out what our customers have to say about Kaspersky protection </h3>
             <div class="rate-box">
-              <div class="stars" data-rateyo-rating="4.5"></div><span>(1503 reviews)</span>
+              <div class="stars" data-rateyo-rating="4.5" data-rateyo-star-width="14px"></div><span>(1503
+                reviews)</span>
             </div>
             <a href="#" class="reviews__link">View all awards</a>
           </div>
           <div class="reviews__content">
-            <div class="reviews__card">
-              <div class="reviews__card-inner">
-                <h4 class="reviews__card-title">
-                  “Smooth software”
-                </h4>
-                <div class="green-stars" data-rateyo-rating="4.5"></div>
-                <div class="reviews__card-text">
-                  <p>
-                    Thoroughly recommcard-end to everyone – it’s much better than the competition.
-                  </p>
+            <div class=" swiper-container--logo">
+              <div class="reviews__content-left swiper-wrapper">
+                <div class="reviews__card swiper-slide">
+                  <div class="reviews__card-inner">
+                    <h4 class="reviews__card-title reviews__card-title--none">
+                      “Smooth software”
+                    </h4>
+                    <h4 class="reviews__card-title reviews__card-title--ipad">
+                      Great peace of mind
+                    </h4>
+                    <div class="green-stars" data-rateyo-rating="4.5"></div>
+                    <div class="reviews__card-text reviews__card-text--none">
+                      <p>
+                        Thoroughly recommcard-end to everyone – it’s much better than the competition.
+                      </p>
+                    </div>
+                    <div class="reviews__card-text reviews__card-text--ipad">
+                      <p>
+                        Excellent app, it tracks what your kid does. It also tells you how much battery life you have in
+                        the device, if your kid is watching anything inappropriate or the exact location of in on the
+                        go.
+                        Highly recommended.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="reviews__user">
+                    Kaspersky Anti-Virus
+                    <span>by RayVM</span>
+                  </div>
+                </div>
+                <div class="reviews__card swiper-slide">
+                  <div class="reviews__card-inner">
+                    <h4 class="reviews__card-title">
+                      “Excellent and complete protection for your devices”
+                    </h4>
+                    <div class="green-stars" data-rateyo-rating="4.5"></div>
+                    <div class="reviews__card-text">
+                      <p>
+                        I am using Kaspersky for the last 10 years and have found no issue in installation or affecting
+                        system
+                        performance.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="reviews__user">
+                    Kaspersky Internet Security
+                    <span>by Nish</span>
+                  </div>
+                </div>
+                <div class="reviews__card swiper-slide">
+                  <div class="reviews__card-inner">
+                    <h4 class="reviews__card-title">
+                      “Protection for all the family”
+                    </h4>
+                    <div class="green-stars" data-rateyo-rating="4.5"></div>
+                    <div class="reviews__card-text">
+                      <p>
+                        A great product fcard-or all, easy to use and gives you all round protection.
+                      </p>
+                      <p>
+                        I like the easy way it carries out updates and the fixing of errors.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="reviews__user">
+                    Kaspersky Total Security
+                    <span>by Bernie</span>
+                  </div>
                 </div>
               </div>
-              <div class="reviews__user">
-                Kaspersky Anti-Virus
-                <span>by RayVM</span>
-              </div>
+              <div class="swiper-pagination swiper-pagination--mob"></div>
             </div>
-            <div class="reviews__card">
-              <div class="reviews__card-inner">
-                <h4 class="reviews__card-title">
-                  “Multiple protection”
-                </h4>
-                <div class="green-stars" data-rateyo-rating="4.5"></div>
-                <div class="reviews__card-text">
-                  <p>
-                    I have used Kaspercard-sky for many years for my PC, phones and tablet. I find it works very well
-                    and I have
-                    never had any problems.
-                  </p>
+            <div class="reviews__content-right">
+              <div class="reviews__card reviews__card--ipad">
+                <img src="images/reviews/ipad-1.png" alt="rewards" class="reviews__card-img">
+                <div class="reviews__card-inner">
+                  <h4 class="reviews__card-title reviews__card-title--ipad">
+                    Kaspersky Anti-Targeted Attack Platform
+                  </h4>
+                  <div class="reviews__card-text">
+                    <p>
+                      Unbeatable results: 9 times with Detection Rate =100% and 9 times with False Positive=0 during 12
+                      consecutive tests
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="reviews__user">
-                Kaspersky Internet Security
-                <span>by t355y</span>
-              </div>
-            </div>
-            <div class="reviews__card">
-              <div class="reviews__card-inner">
-                <h4 class="reviews__card-title">
-                  “Excellent and complete protection for your devices”
-                </h4>
-                <div class="green-stars" data-rateyo-rating="4.5"></div>
-                <div class="reviews__card-text">
-                  <p>
-                    I am using Kaspersky for the last 10 years and have found no issue in installation or affecting
-                    system
-                    performance.
-                  </p>
+              <div class="reviews__card reviews__card--ipad">
+                <img src="images/reviews/ipad-2.png" alt="rewards" class="reviews__card-img">
+                <div class="reviews__card-inner">
+                  <h4 class="reviews__card-title reviews__card-title--ipad">
+                    Kaspersky Endpoint Security
+                  </h4>
+                  <div class="reviews__card-text">
+                    <p>
+                      AV-Test: bi-monthly certification
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="reviews__user">
-                Kaspersky Internet Security
-                <span>by Nish</span>
-              </div>
-            </div>
-            <div class="reviews__card">
-              <div class="reviews__card-inner">
-                <h4 class="reviews__card-title">
-                  “More than just a virus killer”
-                </h4>
-                <div class="green-stars" data-rateyo-rating="4.5"></div>
-                <div class="reviews__card-text">
-                  <p>
-                    I have been usingcard- Kaspersky for a few years now after it received top spot in
-                    Computeractive magazine.
-                    It does more than what I actually use but others will find these useful such as parental
-                    controls if
-                    they have children at home If you need help & can't find it on their site the phone service is
-                    an
-                    excellent alternative.
-                  </p>
+              <div class="reviews__card reviews__card--ipad">
+                <img src="images/reviews/ipad-3.png" alt="rewards" class="reviews__card-img">
+                <div class="reviews__card-inner">
+                  <h4 class="reviews__card-title reviews__card-title--ipad">
+                    Kaspersky Small Office Security
+                  </h4>
+                  <div class="reviews__card-text">
+                    <p>
+                      MRG-Effitas: 360 degree Assessment & Certification
+                      The highest Level1 results
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="reviews__user">
-                Kaspersky Total Security
-                <span>by Mike</span>
-              </div>
-            </div>
-            <div class="reviews__card">
-              <div class="reviews__card-inner">
-                <h4 class="reviews__card-title">
-                  “Protection for all the family”
-                </h4>
-                <div class="green-stars" data-rateyo-rating="4.5"></div>
-                <div class="reviews__card-text">
-                  <p>
-                    A great product fcard-or all, easy to use and gives you all round protection.
-                  </p>
-                  <p>
-                    I like the easy way it carries out updates and the fixing of errors.
-                  </p>
+              <div class="reviews__card reviews__card--none">
+                <div class="reviews__card-inner">
+                  <h4 class="reviews__card-title">
+                    “Multiple protection”
+                  </h4>
+                  <div class="green-stars" data-rateyo-rating="4.5"></div>
+                  <div class="reviews__card-text">
+                    <p>
+                      I have used Kaspercard-sky for many years for my PC, phones and tablet. I find it works very
+                      well
+                      and I have
+                      never had any problems.
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews__user">
+                  Kaspersky Internet Security
+                  <span>by t355y</span>
                 </div>
               </div>
-              <div class="reviews__user">
-                Kaspersky Total Security
-                <span>by Bernie</span>
+              <div class="reviews__card reviews__card--none">
+                <div class="reviews__card-inner">
+                  <h4 class="reviews__card-title">
+                    “More than just a virus killer”
+                  </h4>
+                  <div class="green-stars" data-rateyo-rating="4.5"></div>
+                  <div class="reviews__card-text">
+                    <p>
+                      I have been usingcard- Kaspersky for a few years now after it received top spot in
+                      Computeractive magazine.
+                      It does more than what I actually use but others will find these useful such as parental
+                      controls if
+                      they have children at home If you need help & can't find it on their site the phone service
+                      is
+                      an
+                      excellent alternative.
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews__user">
+                  Kaspersky Total Security
+                  <span>by Mike</span>
+                </div>
               </div>
             </div>
           </div>
+          <a href="#" class="reviews__link-ipad">View all awards</a>
         </div>
       </div>
     </section>
     <section class="faq">
       <div class="container-b">
-        <h2 class="faq__title title">
-          Frequently Asked Questions
-        </h2>
-        <ul class="faq__list">
-          <li class="faq__quest" data-icon="+">How many devices can I protect?</li>
-          <li class="faq__answ">You download the software straight from our website. Simply complete your payment order
-            and the download link will appear on the order confirmation page. The same download link will ...</li>
-          <li class="faq__quest" data-icon="+">Will I get the latest version?</li>
-          <li class="faq__answ">You download the software straight from our website. Simply complete your payment order
-            and the download link will appear on the order confirmation page. The same download link will ...</li>
-          <li class="faq__quest" data-icon="+">How quickly can I start using the software?</li>
-          <li class="faq__answ">You download the software straight from our website. Simply complete your payment order
-            and the download link will appear on the order confirmation page. The same download link will ...</li>
-          <li class="faq__quest" data-icon="+">How do I download and install the software?</li>
-          <li class="faq__answ">You download the software straight from our website. Simply complete your payment order
-            and the download link will appear on the order confirmation page. The same download link will ...</li>
-          <li class="faq__quest" data-icon="+">What type of encryption is used in Kaspersky VPN?</li>
-          <li class="faq__answ">You download the software straight from our website. Simply complete your payment order
-            and the download link will appear on the order confirmation page. The same download link will ...</li>
-          <li class="faq__quest" data-icon="+">What server locations are offered by Kaspersky VPN?</li>
-          <li class="faq__answ">You download the software straight from our website. Simply complete your payment order
-            and the download link will appear on the order confirmation page. The same download link will ...</li>
-          <li class="faq__quest" data-icon="+">Lorem ipsum is placeholder text commonly used?</li>
-          <li class="faq__answ">You download the software straight from our website. Simply complete your payment order
-            and the download link will appear on the order confirmation page. The same download link will ...</li>
-        </ul>
+        <div class="faq__top">
+          <h2 class="faq__title title faq__tab tab1">
+            Frequently Asked Questions
+          </h2>
+          <h2 class="faq__title title faq__tab tab2">
+            System Requirements
+          </h2>
+          <div class="faq__controller">
+            <a href=".tab1" class="faq__controller-item faq__controller-item--active">FAQ</a>
+            <a href=".tab2" class="faq__controller-item">System Requirements</a>
+          </div>
+        </div>
+        <div class="faq__tabs">
+          <ul class="faq__list faq__tab tab1">
+            <li class="faq__item">
+              <div class="faq__quest">
+                <div class="faq__quest-icon">+</div>
+                <div class="faq__quest-title">How many devices can I protect?</div>
+              </div>
+              <div class="faq__answ">You download the software straight from our website. Simply complete your payment
+                order
+                and the download link will appear on the order confirmation page. The same download link will ...</div>
+            </li>
+            <li class="faq__item">
+              <div class="faq__quest">
+                <div class="faq__quest-icon">+</div>
+                <div class="faq__quest-title">Will I get the latest version?</div>
+              </div>
+              <div class="faq__answ">You download the software straight from our website. Simply complete your payment
+                order
+                and the download link will appear on the order confirmation page. The same download link will ...</div>
+            </li>
+            <li class="faq__item">
+              <div class="faq__quest">
+                <div class="faq__quest-icon">+</div>
+                <div class="faq__quest-title">How quickly can I start using the software?</div>
+              </div>
+              <div class="faq__answ">
+                You download the software straight from our website. Simply complete your payment
+                order
+                and the download link will appear on the order confirmation page. The same download link will ...
+              </div>
+            </li>
+            <li class="faq__item">
+              <div class="faq__quest">
+                <div class="faq__quest-icon">+</div>
+                <div class="faq__quest-title">How do I download and install the software?</div>
+              </div>
+              <div class="faq__answ">
+                You download the software straight from our website. Simply complete your payment
+                order
+                and the download link will appear on the order confirmation page. The same download link will ...
+              </div>
+            </li>
+            <li class="faq__item">
+              <div class="faq__quest">
+                <div class="faq__quest-icon">+</div>
+                <div class="faq__quest-title">What type of encryption is used in Kaspersky VPN?</div>
+              </div>
+              <div class="faq__answ">
+                You download the software straight from our website. Simply complete your payment
+                order
+                and the download link will appear on the order confirmation page. The same download link will ...
+              </div>
+            </li>
+            <li class="faq__item">
+              <div class="faq__quest">
+                <div class="faq__quest-icon">+</div>
+                <div class="faq__quest-title">What server locations are offered by Kaspersky VPN?</div>
+              </div>
+              <div class="faq__answ">
+                You download the software straight from our website. Simply complete your payment
+                order
+                and the download link will appear on the order confirmation page. The same download link will ...
+              </div>
+            </li>
+            <li class="faq__item">
+              <div class="faq__quest">
+                <div class="faq__quest-icon">+</div>
+                <div class="faq__quest-title">Lorem ipsum is placeholder text commonly used?</div>
+              </div>
+              <div class="faq__answ">
+                You download the software straight from our website. Simply complete your payment
+                order
+                and the download link will appear on the order confirmation page. The same download link will ...
+              </div>
+            </li>
+          </ul>
+          <div class="faq__tab tab2">
+            <ul class="faq__tab-list">
+              <li class="faq__tab-item">
+                <h3 class="faq__tab-title">
+                  For all devices
+                </h3>
+              </li>
+              <li class="faq__tab-item">Internet connection required – for product activation & updates and for access
+                to
+                some features</li>
+              <li class="faq__tab-item">Webcam Protection technology only runs on PCs & Mac computers. The feature is
+                available for a range of compatible web-cameras. For the full list of compatible devices, please visit:
+                <span><a href="https://support.kaspersky.com/14108#block1">https://support.kaspersky.com/14108#block1
+                  </a>(for PCs) and </span>
+                <span><a href="https://support.kaspersky.com/14248#block1">https://support.kaspersky.com/14248#block1
+                  </a>(for Mac computers) </span>
+              </li>
+            </ul>
+            <ul class="faq__tab-list">
+              <li class="faq__tab-item">
+                <h3 class="faq__tab-title">
+                  Windows®-based desktops and laptops
+                </h3>
+              </li>
+              <li class="faq__tab-item">
+                1500 MB free space on the hard drive
+              </li>
+              <li class="faq__tab-item">
+                Microsoft® Internet Explorer® 10 or higher
+              </li>
+              <li class="faq__tab-item">
+                Microsoft .NET Framework 4 or higher
+              </li>
+              <li class="faq__tab-item">
+                Microsoft Windows 101 Home / Pro / Enterprise2 3
+              </li>
+              <li class="faq__tab-item">
+                Microsoft Windows 8 & 8.1 / Pro / Enterprise3 / 8.1 update2
+              </li>
+              <li class="faq__tab-item">
+                Microsoft Windows 7 Starter / Home Basic & Premium / Professional / Ultimate — SP1 or higher2
+              </li>
+              <li class="faq__tab-item">
+                Processor: 1 GHz or higher
+              </li>
+              <li class="faq__tab-item">
+                Memory (RAM): 1 GB (32-bit) or 2 GB (64-bit)
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="energizer">
-      <div class="energizer__inner">
-        <div class="energizer__logo"><img src="images/logo2.png" alt="logo"></div>
-        <div class="energizer__subtitle">
-          Enjoy 20$ free and save up to 60%
-          <span>on your online security</span>
-        </div>
-        <div class="energizer__text">
-          <p>Whatever you need to protect – your PC & mobile devices or your family’s entire digital world – we’ve got
-            the security solutions you need. Our premium solutions are all Android compatible to make sure your mobile
-            is as safe as your PC or laptops.</p>
-          <p>Select the solution that fits best your needs, click on “Buy now”, fill in your personal code received by
-            email in the cart, your discount will apply.</p>
-        </div>
-        <a href="#" class="energizer__link">Terms & Conditions </a>
-      </div>
-      <div class="energizer__img">
-        <img src="images/top-bg.png" alt="energizer">
-      </div>
-    </section>
-    <div class="cards">
+    <section class="energizer energizer--bottom">
       <div class="container">
-        <div class="cards__inner">
-          <article class="card card--bottom">
-            <div class="card__top-box">
-              <span class="card__top-sticker">Advanced Security</span>
-              <div class="card__top">
-                <img src="images/cards/1.svg" alt="Internet Security" class="card__img">
-                <div class="card__top-content">
-                  <h4 class="card__title">Kaspersky</h4>
-                  <div class="card__subtitle">Internet Security</div>
-                  <div class="stars" data-rateyo-rating="4.5"></div>
-                  <span class="card__reviews">(1503 reviews)</span>
-                </div>
-              </div>
-              <ul class="card__list">
-                <li class="card__item">Advanced antivirus & privacy protection for PC, Mac & Mobile</li>
-                <li class="card__item">Includes Webcam Protection, Safe Money Browser & free VPN</li>
-              </ul>
-              <div class="card__user-info">2 User accounts <a class="card__mark" href="#"><img
-                    src="images/cards/mark.svg" alt="mark"></a></div>
+        <div class="energizer__inner">
+          <div class="energizer__inner-top">
+            <div class="energizer__title-box">
+              <div class="energizer__logo"><img src="images/logo1.svg" alt="logo"><span>&</span><img
+                  src="images/logo1.png" alt="logo"></div>
+              <h2 class="energizer__subtitle">
+                Enjoy 20$ free and save up to 60%
+                on your online security
+              </h2>
             </div>
-            <div class="card__bottom">
-              <div class="card__plan">
-                <h5 class="card__plan-title">
-                  Choose your plan:
-                </h5>
-                <div class="card__select">
-                  <div class="card__select-l">
-                    <span>
-                      5 Devices,
-                    </span>
-                    <span>
-                      1 Year
-                    </span>
-                  </div>
-                  <span class="card__select-r">
-                    $39.99
-                  </span>
-                </div>
-              </div>
-              <div class="card__bottom-center">
-                <span class="card__tagline">Protect more devices</span>
-                <div class="card__prices">
-                  <div class="card__sales">
-                    <span>
-                      $20 OFF
-                    </span>
-                    <span>
-                      $59.99
-                      <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                    </span>
-                  </div>
-                  <div class="card__prices-value">
-                    <span>$</span>39<sup>,99*</sup>
+            <img src="images/energbg-mob.png" alt="energizer" class="energizer__img-bg">
+            <img src="images/top-bg-mob.png" alt="energizer" class="energizer__img-mob">
+          </div>
+          <div class="energizer__text">
+            <p>Whatever you need to protect – your PC & mobile devices or your family’s entire digital world – we’ve got
+              the security solutions you need. Our premium solutions are all Android compatible to make sure your mobile
+              is as safe as your PC or laptops.</p>
+            <p>Select the solution that fits best your needs, click on “Buy now”, fill in your personal code received by
+              email in the cart, your discount will apply.</p>
+          </div>
+          <a href="#" class="energizer__link">Terms & Conditions </a>
+        </div>
+        <div class="energizer__img">
+          <img src="images/top-bg.png" alt="energizer">
+        </div>
+      </div>
+    </section>
+    <div class="cards cards--bottom">
+      <div class="container">
+        <div class="swiper-container--ipad">
+          <div class="cards__inner cards__inner--bottom swiper-wrapper">
+            <article class="card card--bottom swiper-slide">
+              <div class="card__top-box">
+                <span class="card__top-sticker">Advanced Security</span>
+                <div class="card__top">
+                  <img src="images/cards/1.svg" alt="Internet Security" class="card__img">
+                  <div class="card__top-content">
+                    <h4 class="card__title">Kaspersky</h4>
+                    <div class="card__subtitle">Internet Security</div>
+                    <div class="stars" data-rateyo-rating="4.5"></div>
+                    <span class="card__reviews">(1503 reviews)</span>
                   </div>
                 </div>
-                <button class="card__button" type="button">
-                  Buy now
-                </button>
-                <div class="card__checkbox">
-                  <label class="card__label">
-                    <input type="checkbox" class="card__input">
-                    <span>Auto Renewal</span>
-                    <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                  </label>
-                  <a href="#" class="card__checkbox-link"></a>
-                </div>
-                <span class="card__warn">*Introductory Pricing for New Customers</span>
+                <ul class="card__list">
+                  <li class="card__item">Advanced antivirus & privacy protection for PC, Mac & Mobile</li>
+                  <li class="card__item">Includes Webcam Protection, Safe Money Browser & free VPN</li>
+                </ul>
+                <div class="card__user-info">2 User accounts <span class="card__mark"><img
+                      src="images/cards/mark.svg" alt="mark"></span></div>
               </div>
-            </div>
-          </article>
-          <article class="card card--bottom">
-            <span class="card__stick">BEST CHOICE</span>
-            <div class="card__top-box">
-              <span class="card__top-sticker card__top-sticker--yellow">Premium Security</span>
-              <div class="card__top">
-                <img src="images/cards/2.svg" alt="Internet Security" class="card__img">
-                <div class="card__top-content">
-                  <h4 class="card__title">Kaspersky</h4>
-                  <div class="card__subtitle">Total Security</div>
-                  <div class="stars" data-rateyo-rating="4.5"></div>
-                  <span class="card__reviews">(1503 reviews)</span>
-                </div>
-              </div>
-              <ul class="card__list">
-                <li class="card__item">Complete security & privacy suite for PC, Mac & Mobile</li>
-                <li class="card__item">Includes Kaspersky Password Manager & Kaspersky Safe Kids</li>
-              </ul>
-              <div class="card__user-info">2 User accounts <a class="card__mark" href="#"><img
-                    src="images/cards/mark.svg" alt="mark"></a></div>
-            </div>
-            <div class="card__bottom">
-              <div class="card__plan">
-                <h5 class="card__plan-title">
-                  Choose your plan:
-                </h5>
-                <div class="card__select">
-                  <div class="card__select-l">
-                    <span>
-                      5 Devices,
-                    </span>
-                    <span>
-                      1 Year
+              <div class="card__bottom">
+                <div class="card__plan">
+                  <h5 class="card__plan-title">
+                    Choose your plan:
+                  </h5>
+                  <div class="card__select">
+                    <div class="card__select-l">
+                      <span>
+                        5 Devices,
+                      </span>
+                      <span>
+                        1 Year
+                      </span>
+                    </div>
+                    <span class="card__select-r">
+                      $39.99
                     </span>
                   </div>
-                  <span class="card__select-r">
-                    $49.99
-                  </span>
+                </div>
+                <div class="card__bottom-center">
+                  <span class="card__tagline">Protect more devices</span>
+                  <div class="card__prices">
+                    <div class="card__sales">
+                      <span>
+                        $20 OFF
+                      </span>
+                      <span>
+                        $59.99
+                        <span class="card__mark"><img src="images/cards/mark.svg" alt="mark"></span>
+                      </span>
+                    </div>
+                    <div class="card__prices-value">
+                      <span>$</span>39<sup>,99*</sup>
+                    </div>
+                  </div>
+                  <button class="card__button" type="button">
+                    Buy now
+                  </button>
+                  <div class="card__checkbox-box">
+                    <label class="card__label">
+                      <input type="checkbox" class="card__input">
+                      <span class="card__checkbox"></span>
+                      <span class="card__renewal">Auto Renewal</span>
+                      <span class="card__mark card__mark--bottom"><img src="images/cards/mark.svg"
+                          alt="mark"></span>
+                    </label>
+                    <a href="#" class="card__checkbox-link"></a>
+                  </div>
+                  <span class="card__warn">*Introductory Pricing for New Customers</span>
                 </div>
               </div>
+            </article>
+            <article class="card card--bottom swiper-slide">
+              <span class="card__stick">BEST CHOICE</span>
+              <div class="card__top-box">
+                <span class="card__top-sticker card__top-sticker--yellow">Premium Security</span>
+                <div class="card__top">
+                  <img src="images/cards/2.svg" alt="Internet Security" class="card__img">
+                  <div class="card__top-content">
+                    <h4 class="card__title">Kaspersky</h4>
+                    <div class="card__subtitle">Total Security</div>
+                    <div class="stars" data-rateyo-rating="4.5"></div>
+                    <span class="card__reviews">(1503 reviews)</span>
+                  </div>
+                </div>
+                <ul class="card__list">
+                  <li class="card__item">Complete security & privacy suite for PC, Mac & Mobile</li>
+                  <li class="card__item">Includes Kaspersky Password Manager & Kaspersky Safe Kids</li>
+                </ul>
+                <div class="card__user-info">2 User accounts <span class="card__mark"><img
+                      src="images/cards/mark.svg" alt="mark"></span></div>
+              </div>
+              <div class="card__bottom">
+                <div class="card__plan">
+                  <h5 class="card__plan-title">
+                    Choose your plan:
+                  </h5>
+                  <div class="card__select">
+                    <div class="card__select-l">
+                      <span>
+                        5 Devices,
+                      </span>
+                      <span>
+                        1 Year
+                      </span>
+                    </div>
+                    <span class="card__select-r">
+                      $49.99
+                    </span>
+                  </div>
+                </div>
 
-              <div class="card__bottom-center">
-                <span class="card__tagline">Protect more devices</span>
-                <div class="card__prices">
-                  <div class="card__sales">
-                    <span>
-                      $20 OFF
-                    </span>
-                    <span>
-                      $59.99
-                      <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                    </span>
+                <div class="card__bottom-center">
+                  <span class="card__tagline">Protect more devices</span>
+                  <div class="card__prices">
+                    <div class="card__sales">
+                      <span>
+                        $20 OFF
+                      </span>
+                      <span>
+                        $59.99
+                        <span class="card__mark"><img src="images/cards/mark.svg" alt="mark"></span>
+                      </span>
+                    </div>
+                    <div class="card__prices-value">
+                      <span>$</span>49<sup>,99*</sup>
+                    </div>
                   </div>
-                  <div class="card__prices-value">
-                    <span>$</span>49<sup>,99*</sup>
+                  <button class="card__button" type="button">
+                    Buy now
+                  </button>
+                  <div class="card__checkbox-box">
+                    <label class="card__label">
+                      <input type="checkbox" class="card__input">
+                      <span class="card__checkbox"></span>
+
+                      <span class="card__renewal">Auto Renewal</span>
+                      <span class="card__mark card__mark--bottom"><img src="images/cards/mark.svg"
+                          alt="mark"></span>
+                    </label>
+                    <a href="#" class="card__checkbox-link"></a>
                   </div>
-                </div>
-                <button class="card__button" type="button">
-                  Buy now
-                </button>
-                <div class="card__checkbox">
-                  <label class="card__label">
-                    <input type="checkbox" class="card__input">
-                    <span>Auto Renewal</span>
-                    <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                  </label>
-                  <a href="#" class="card__checkbox-link"></a>
-                </div>
-                <span class="card__warn">*Introductory Pricing for New Customers</span>
-              </div>
-            </div>
-          </article>
-          <article class="card card--bottom">
-            <div class="card__top-box">
-              <span class="card__top-sticker card__top-sticker--brown">Essential Security</span>
-              <div class="card__top">
-                <img src="images/cards/3.svg" alt="Internet Security" class="card__img">
-                <div class="card__top-content">
-                  <h4 class="card__title">Kaspersky</h4>
-                  <div class="card__subtitle">Security Cloud</div>
-                  <div class="stars" data-rateyo-rating="4.5"></div>
-                  <span class="card__reviews">(1503 reviews)</span>
+                  <span class="card__warn">*Introductory Pricing for New Customers</span>
                 </div>
               </div>
-              <ul class="card__list">
-                <li class="card__item">Check your online accounts for data leaks</li>
-                <li class="card__item">Monitor your home Wi-Fi for intruders</li>
-              </ul>
-              <div class="card__user-info">2 User accounts <a class="card__mark" href="#"><img
-                    src="images/cards/mark.svg" alt="mark"></a></div>
-            </div>
-            <div class="card__bottom">
-              <div class="card__plan">
-                <h5 class="card__plan-title">
-                  Choose your plan:
-                </h5>
-                <div class="card__select">
-                  <div class="card__select-l">
-                    <span>
-                      5 Devices,
-                    </span>
-                    <span>
-                      1 Year
+            </article>
+            <article class="card card--bottom swiper-slide">
+              <div class="card__top-box">
+                <span class="card__top-sticker card__top-sticker--brown">Essential Security</span>
+                <div class="card__top">
+                  <img src="images/cards/3.svg" alt="Internet Security" class="card__img">
+                  <div class="card__top-content">
+                    <h4 class="card__title">Kaspersky</h4>
+                    <div class="card__subtitle">Security Cloud</div>
+                    <div class="stars" data-rateyo-rating="4.5"></div>
+                    <span class="card__reviews">(1503 reviews)</span>
+                  </div>
+                </div>
+                <ul class="card__list">
+                  <li class="card__item">Check your online accounts for data leaks</li>
+                  <li class="card__item">Monitor your home Wi-Fi for intruders</li>
+                </ul>
+                <div class="card__user-info">2 User accounts <span class="card__mark"><img
+                      src="images/cards/mark.svg" alt="mark"></span></div>
+              </div>
+              <div class="card__bottom">
+                <div class="card__plan">
+                  <h5 class="card__plan-title">
+                    Choose your plan:
+                  </h5>
+                  <div class="card__select">
+                    <div class="card__select-l">
+                      <span>
+                        5 Devices,
+                      </span>
+                      <span>
+                        1 Year
+                      </span>
+                    </div>
+                    <span class="card__select-r">
+                      $29.99
                     </span>
                   </div>
-                  <span class="card__select-r">
-                    $29.99
-                  </span>
+                </div>
+                <div class="card__bottom-center">
+                  <span class="card__tagline">Protect more devices</span>
+                  <div class="card__prices">
+                    <div class="card__sales">
+                      <span>
+                        $20 OFF
+                      </span>
+                      <span>
+                        $59.99
+                        <span class="card__mark"><img src="images/cards/mark.svg" alt="mark"></span>
+                      </span>
+                    </div>
+                    <div class="card__prices-value">
+                      <span>$</span>29<sup>,99*</sup>
+                    </div>
+                  </div>
+                  <button class="card__button" type="button">
+                    Buy now
+                  </button>
+                  <div class="card__checkbox-box">
+                    <label class="card__label">
+                      <input type="checkbox" class="card__input">
+                      <span class="card__checkbox"></span>
+
+                      <span class="card__renewal">Auto Renewal</span>
+                      <span class="card__mark card__mark--bottom"><img src="images/cards/mark.svg"
+                          alt="mark"></span>
+                    </label>
+                    <a href="#" class="card__checkbox-link"></a>
+                  </div>
+                  <span class="card__warn">*Introductory Pricing for New Customers</span>
                 </div>
               </div>
-              <div class="card__bottom-center">
-                <span class="card__tagline">Protect more devices</span>
-                <div class="card__prices">
-                  <div class="card__sales">
-                    <span>
-                      $20 OFF
-                    </span>
-                    <span>
-                      $59.99
-                      <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                    </span>
-                  </div>
-                  <div class="card__prices-value">
-                    <span>$</span>29<sup>,99*</sup>
-                  </div>
-                </div>
-                <button class="card__button" type="button">
-                  Buy now
-                </button>
-                <div class="card__checkbox">
-                  <label class="card__label">
-                    <input type="checkbox" class="card__input">
-                    <span>Auto Renewal</span>
-                    <a class="card__mark" href="#"><img src="images/cards/mark.svg" alt="mark"></a>
-                  </label>
-                  <a href="#" class="card__checkbox-link"></a>
-                </div>
-                <span class="card__warn">*Introductory Pricing for New Customers</span>
-              </div>
-            </div>
-          </article>
+            </article>
+          </div>
+          <div class="swiper-pagination swiper-pagination--top"></div>
         </div>
       </div>
     </div>
@@ -1581,17 +2577,66 @@
               Refund Policy
             </a>
           </li>
-         </ul>
+        </ul>
+        <ul class="footer__list-mob">
+          <li class="footer__item">
+            <a href="#">
+              Terms of Use
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#">
+              Privacy Policy
+            </a>
+          </li>
+          <li class="footer__item">
+            <a href="#">
+              Contacts
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__socials-mob">
+          <li>
+            <a href="#">
+              <img src="images/footer/fb-m.svg" alt="facebook">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/footer/tw-m.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/footer/ln-m.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/footer/yt-m.svg" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/footer/insta-m.svg" alt="">
+            </a>
+          </li>
+        </ul>
       </div>
       <div class="footer__right">
         <div class="footer__links">
-        <a href="#" class="footer__link"><img src="images/footer/fb.svg" alt="facebok"></a>
-        <a href="#" class="footer__link"><img src="images/footer/insta.svg" alt="instagram"></a>
-        <a href="#" class="footer__link"><img src="images/footer/tw.svg" alt="twitter"></a>
-        <a href="#" class="footer__link"><img src="images/footer/yt.svg" alt="youtube"></a>
+          <a href="#" class="footer__link"><img src="images/footer/fb.svg" alt="facebok"></a>
+          <a href="#" class="footer__link"><img src="images/footer/insta.svg" alt="instagram"></a>
+          <a href="#" class="footer__link"><img src="images/footer/tw.svg" alt="twitter"></a>
+          <a href="#" class="footer__link"><img src="images/footer/yt.svg" alt="youtube"></a>
         </div>
         <div class="footer__lang">
-          United Kingdom
+          <select class="footer__filter">
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="USA">USA</option>
+            <option value="RUSSIA">Russia</option>
+            <option value="China">China</option>
+          </select>
         </div>
       </div>
     </div>
