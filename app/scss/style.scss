@@ -34,6 +34,11 @@
     text-transform: uppercase;
     width: 55px;
     @extend %kaspersky-400;
+    padding: 8px 3px 8px 0px;
+    appearance: none;
+    background-image: url(../images/cards/angle.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
   }
 
   &__basket {
@@ -878,6 +883,7 @@
       }
     }
   }
+
   .tariffs__name--third {
     .tariffs__item {
       &:nth-child(2)::before {
@@ -903,15 +909,19 @@
       &:nth-child(7)::before {
         background-image: url(../images/tariffs/list/yes.svg);
       }
+
       &:nth-child(8)::before {
         background-image: url(../images/tariffs/list/yes.svg);
       }
+
       &:nth-child(9)::before {
         background-image: url(../images/tariffs/list/yes.svg);
       }
+
       &:nth-child(10)::before {
         background-image: url(../images/tariffs/list/yes.svg);
       }
+
       &:nth-child(11)::before {
         background-image: url(../images/tariffs/list/yes.svg);
       }
